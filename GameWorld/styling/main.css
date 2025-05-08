@@ -1,0 +1,590 @@
+body
+{
+    background-image: url(../../GameWorld/styling/background.jpg) ;
+    background-size: cover;
+}
+
+.categories 
+{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin: 50px;
+  gap: 25px;
+}
+
+.categories img
+{
+    width: 400px;
+    height: auto;
+}
+
+.categories img:hover
+{
+    transform: scale(1.1);
+}
+
+.container
+{
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(58, 233, 233, 0.322);
+}
+
+.text 
+{
+    position: absolute;
+    top: 0px;
+    left: 550px;
+}
+
+nav ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color: rgba(58, 233, 233, 0.322);
+    list-style-type: none;
+    gap: 10px;
+    padding: 15px;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover
+{
+    color: white;
+}
+
+.products img
+{
+    width: 200px;
+    height: 200px;
+}
+
+.products 
+{
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+    top: 50px;
+    padding: 25px;
+    width: 200px; /* adjust the width to your liking */
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.475);
+}
+
+.products p {
+    position: absolute;
+    background-color: gray;
+    color: #ffff;
+    top: 150px;
+}
+
+.products img:hover
+{
+    transform: scale(1.1);
+}
+
+/* styling/main.css */
+
+/* styling/main.css */
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-toggle {
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(50, 191, 191, 0.649);
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: none;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li {
+    margin-bottom: 10px;
+}
+
+.dropdown-menu li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+    color: #dedede;
+}
+
+/* styling/main.css */
+
+.products button {
+    padding: 10px 20px; /* increase the padding to make the button bigger */
+    background-color: #337ab7; /* change the background color to a fitting color */
+    color: #fff; /* change the text color to white */
+    border: none; /* remove the border */
+    border-radius: 5px; /* add a slight border radius */
+    cursor: pointer; /* change the cursor to a pointer */
+}
+
+.products button:hover {
+    background-color: #23527c; /* change the background color on hover */
+    color: #fff; /* keep the text color the same */
+    transition: background-color 0.2s ease-in-out; /* add a smooth transition effect */
+}
+
+.product-details {
+    position: relative;
+    background-color: #3493b987; 
+    padding: 20px;
+    border: 1px solid #4653b9; 
+    border-radius: 10px; /* rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
+}
+.product-details img {
+    width: 400px;
+    height: auto;
+}
+.product-image {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.price-container {
+    position: absolute;
+    font-size: 20px;
+    top: 160px;
+    right: 1000px;
+}
+.product-name {
+    position: absolute;
+    top: 80px;
+    right: 800px;
+    font-size: 50px;
+}
+.quantity-container{
+    position: absolute;
+    top: 200px;
+    right: 700px;
+    font-size: 20px;
+
+}
+.logo {
+    margin: 20px auto;
+    text-align: center;
+}
+.logo img { 
+    width: 750px;
+}
+
+.quantity-container button {
+    padding: 10px 20px; /* increase the padding to make the button bigger */
+    background-color: #337ab7; /* change the background color to a fitting color */
+    color: #fff; /* change the text color to white */
+    border: none; /* remove the border */
+    border-radius: 5px; /* add a slight border radius */
+    cursor: pointer; /* change the cursor to a pointer */
+}
+.quantity-container button:hover {
+    background-color: #23527c; /* change the background color on hover */
+    color: #fff; /* keep the text color the same */
+    transition: background-color 0.2s ease-in-out;
+}
+.login_body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+.login {
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login label {
+    display: block;
+    margin-bottom: 10px;
+}
+.login input[type="text"], .login input[type="password"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.login button[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+.cancelbtn {
+    width: 100%;
+    height: 40px;
+    background-color: #ccc;
+    color: #666;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.psw {
+    float: right;
+    padding-top: 16px;
+}
+.signupbtn {
+    width: 100%;
+    height: 40px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.signupbtn:hover {
+    background-color: #3e8e41;
+}
+.signup_body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+.signup {
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.signup label {
+    display: block;
+    margin-bottom: 10px;
+}
+.signup input[type="text"], .signup input[type="password"], .signup input[type="email"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.signup button[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.signup button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+.Icon img{
+    width: 40px;
+    height: 40px;
+}
+.dropdown img {
+    width: 40px;
+    height: 40px;
+}
+.cart-container {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    margin: 5px auto;
+   
+}
+.container-cart table {
+    margin: 20px auto;
+    padding: 10px;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+}
+
+.container-cart th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.container-cart th {
+    background-color: #f0f0f0;
+}
+.container-cart td img {
+    display: block;
+    margin: 0 auto;
+    width: 10px;
+    height: 10px;
+}
+.container-cart td button {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container-cart td button:hover {
+    background-color: #23527c;
+}
+
+.container-cart {
+    background-color: #31d6e2a3;
+    padding: 20px;
+    border-radius: 10px;    
+    margin: 50px auto;
+}
+.cartName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form
+{
+    display: flex;
+    justify-content: center;
+    background-color: #31d6e2a3;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+
+}
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    border-radius: 10px;
+    color: #000000;
+    background-color: #31d6e2a3;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;  
+}
+  .contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+.contact-form input[type="submit"] {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.contact-form input[type="submit"]:hover {
+    background-color: #23527c;
+    color: #fff;
+    transition: background-color 0.2s ease-in-out;
+}
+.right-sidebar {
+    position: sticky;
+    top: 60px; /* adjust to the height of your navbar */
+    left: 1700px;
+    width: 300px;
+    background-color: #31d6e2a3;
+    border: 1px solid #ccc;
+    padding: 20px;
+    overflow-y: auto;
+    border-radius: 10px;
+}
+
+.right-sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.right-sidebar li {
+    margin-bottom: 10px;
+}
+
+.right-sidebar a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.right-sidebar a:hover {
+    color: #ab2aab;
+}
+
+.right-sidebar .btn {
+    margin-top: 20px;
+}
+
+.right-sidebar .modal {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.right-sidebar .modal-dialog {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.right-sidebar .modal-content {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.right-sidebar .modal-header {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.right-sidebar .modal-header .close {
+    color: #fff;
+    opacity: 1;
+}
+
+.right-sidebar .modal-body {
+    padding: 20px;
+}
+
+.right-sidebar .modal-footer {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.right-sidebar .form-group {
+    margin-bottom: 20px;
+}
+
+.right-sidebar .form-control {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.right-sidebar .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #337ab7;
+}
+.right-sidebar .btn:hover {
+    background-color: #4eddf0;
+}
+.blog {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 500px;
+    top: 150px;
+    left: 10px;
+    background-color: #31d6e2a3;
+    padding: 20px;
+    border: 1px solid #3d87a4;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.blog h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+
+.blog h4 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 1px;
+}
+
+.blog p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+.blog form {
+    margin-top: 20px;
+}
+
+.blog form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.blog form input[type="text"], .blog form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.blog form input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.blog form input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+.comments {
+    margin-top: 20px;
+}
+
+.comment {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.comment h5 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
